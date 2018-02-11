@@ -1,0 +1,52 @@
+[46.799898148] 2018-02-11 15:59:11,447 - INFO - launcher: Starting sanity checks
+[46.799898148] 2018-02-11 15:59:11,447 - INFO - launcher: Checking for Python 3.5+
+[46.799898148] 2018-02-11 15:59:11,447 - INFO - launcher: Checking console encoding
+[46.799898148] 2018-02-11 15:59:11,447 - INFO - launcher: Setting console encoding to UTF-8
+[46.799898148] 2018-02-11 15:59:11,447 - INFO - launcher: Ensuring we're in the right environment
+[46.799898148] 2018-02-11 15:59:11,447 - INFO - launcher: Adding local bins/ folder to path
+[62.399864197] 2018-02-11 15:59:11,463 - INFO - launcher: Required checks passed.
+[62.399864197] 2018-02-11 15:59:11,463 - INFO - launcher: Optional checks passed.
+[62.399864197] 2018-02-11 15:59:11,463 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.3975999355316162] 2018-02-11 15:59:14,798 - DEBUG - musicbot.bot | In bot.py::MainThread(4372), line 213 in _setup_logging: Set logging level to INFO
+[3.3975999355316162] 2018-02-11 15:59:14,798 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 80 in __init__: =========== MusicBot (version 1.9.6_3) ===========
+[3.3975999355316162] 2018-02-11 15:59:14,798 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 86 in __init__: Loaded autoplaylist with 2531 entries
+[3.397599936] launcher-INFO: Connecting
+[9.2609999179840088] 2018-02-11 15:59:20,661 - DEBUG - musicbot.bot | In bot.py::MainThread(4372), line 1011 in on_ready: Connection established, ready to go.
+[9.2609999179840088] 2018-02-11 15:59:20,661 - DEBUG - musicbot.bot | In bot.py::MainThread(4372), line 324 in _cache_app_info: Caching app info
+[9.4423999786376953] 2018-02-11 15:59:20,843 - DEBUG - musicbot.bot | In bot.py::MainThread(4372), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[9.4423999786376953] 2018-02-11 15:59:20,843 - DEBUG - musicbot.bot | In bot.py::MainThread(4372), line 844 in _scheck_server_permissions: Checking server permissions
+[9.4423999786376953] 2018-02-11 15:59:20,843 - DEBUG - musicbot.bot | In bot.py::MainThread(4372), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[9.4423999786376953] 2018-02-11 15:59:20,843 - DEBUG - musicbot.bot | In bot.py::MainThread(4372), line 852 in _scheck_configs: Validating config
+[9.4423999786376953] 2018-02-11 15:59:20,843 - DEBUG - musicbot.config | In config.py::MainThread(4372), line 155 in async_validate: Validating options...
+[9.4423999786376953] 2018-02-11 15:59:20,843 - DEBUG - musicbot.config | In config.py::MainThread(4372), line 169 in async_validate: Acquired owner id via API
+[9.4423999786376953] 2018-02-11 15:59:20,843 - DEBUG - musicbot.bot | In bot.py::MainThread(4372), line 855 in _scheck_configs: Validating permissions config
+[9.4423999786376953] 2018-02-11 15:59:20,843 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4372), line 59 in async_validate: Validating permissions...
+[9.4423999786376953] 2018-02-11 15:59:20,843 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4372), line 63 in async_validate: Fixing automatic owner group
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1022 in on_ready: Connected to Discord!
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1032 in on_ready: Bot:   411823829006942210/KΣBΛB#5545 [BOT]
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1040 in on_ready: Owner: 307854234366246914/ℂ⋆EMIR KAYA#9899
+
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1043 in on_ready: Server List:
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1044 in <listcomp>:  - ☪ | TurkeyZone | ☪
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1044 in <listcomp>:  - ☪ | PixelTurkey | ☪
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1088 in on_ready: Not bound to any text channels
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1114 in on_ready: Not autojoining any voice channels
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1118 in on_ready: Options:
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1120 in on_ready:   Command prefix: !
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1121 in on_ready:   Default volume: 25%
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1125 in on_ready:   Auto-Summon: Disabled
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1126 in on_ready:   Auto-Playlist: Disabled
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1127 in on_ready:   Auto-Pause: Enabled
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1128 in on_ready:   Delete Messages: Enabled
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1130 in on_ready:     Delete Invoking: Disabled
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1131 in on_ready:   Debug Mode: Disabled
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1132 in on_ready:   Downloaded songs will be deleted
+[9.4423999786376953] 2018-02-11 15:59:20,843 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1134 in on_ready:   Status message: !Yardım ||TRZone
+[11.0404000282287598] 2018-02-11 15:59:22,441 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4372), line 2062 in on_voice_state_update: Voice state update for 307854234366246914/ℂ⋆EMIR KAYA#9899 on ☪ | TurkeyZone | ☪/💬 Sohbet 💬 -> [CONNECT, MUTE]
+[12.3099999427795410] 2018-02-11 15:59:23,710 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(4372), line 2062 in on_voice_state_update: Voice state update for 307854234366246914/ℂ⋆EMIR KAYA#9899 on ☪ | TurkeyZone | ☪/🎵 Müzik 🎵 -> [MOVE]
+[31.2739999294281006] 2018-02-11 15:59:42,674 - INFO - musicbot.bot | In bot.py::MainThread(4372), line 1893 in on_message: 307854234366246914/ℂ⋆EMIR KAYA#9899: !oynat Sev Beni Delicesine

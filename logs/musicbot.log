@@ -1,0 +1,116 @@
+[47.999858856] 2018-02-11 16:00:53,600 - INFO - launcher: Starting sanity checks
+[49.000024796] 2018-02-11 16:00:53,601 - INFO - launcher: Checking for Python 3.5+
+[49.000024796] 2018-02-11 16:00:53,601 - INFO - launcher: Checking console encoding
+[49.999952316] 2018-02-11 16:00:53,602 - INFO - launcher: Setting console encoding to UTF-8
+[50.999879837] 2018-02-11 16:00:53,603 - INFO - launcher: Ensuring we're in the right environment
+[52.999973297] 2018-02-11 16:00:53,605 - INFO - launcher: Adding local bins/ folder to path
+[53.999900818] 2018-02-11 16:00:53,606 - INFO - launcher: Required checks passed.
+[55.000066757] 2018-02-11 16:00:53,607 - INFO - launcher: Optional checks passed.
+[55.999994278] 2018-02-11 16:00:53,608 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[2.4570000171661377] 2018-02-11 16:00:56,009 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 213 in _setup_logging: Set logging level to INFO
+[2.4570000171661377] 2018-02-11 16:00:56,009 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 80 in __init__: =========== MusicBot (version 1.9.6_3) ===========
+[2.4579999446868896] 2018-02-11 16:00:56,010 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 86 in __init__: Loaded autoplaylist with 2531 entries
+[2.460000038] launcher-INFO: Connecting
+[8.1259999275207520] 2018-02-11 16:01:01,678 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1893 in on_message: 307854234366246914/ℂ⋆EMIR KAYA#9899: !joinserver
+[8.1319999694824219] 2018-02-11 16:01:01,684 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 1011 in on_ready: Connection established, ready to go.
+[8.1319999694824219] 2018-02-11 16:01:01,684 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 324 in _cache_app_info: Caching app info
+[8.3120000362396240] 2018-02-11 16:01:01,864 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[8.3150000572204590] 2018-02-11 16:01:01,867 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 844 in _scheck_server_permissions: Checking server permissions
+[8.3159999847412109] 2018-02-11 16:01:01,868 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[8.3159999847412109] 2018-02-11 16:01:01,868 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 852 in _scheck_configs: Validating config
+[8.3159999847412109] 2018-02-11 16:01:01,868 - DEBUG - musicbot.config | In config.py::MainThread(1288), line 155 in async_validate: Validating options...
+[8.3169999122619629] 2018-02-11 16:01:01,869 - DEBUG - musicbot.config | In config.py::MainThread(1288), line 169 in async_validate: Acquired owner id via API
+[8.3169999122619629] 2018-02-11 16:01:01,869 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 855 in _scheck_configs: Validating permissions config
+[8.3169999122619629] 2018-02-11 16:01:01,869 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1288), line 59 in async_validate: Validating permissions...
+[8.3180000782012939] 2018-02-11 16:01:01,870 - DEBUG - musicbot.permissions | In permissions.py::MainThread(1288), line 63 in async_validate: Fixing automatic owner group
+[8.3180000782012939] 2018-02-11 16:01:01,870 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1022 in on_ready: Connected to Discord!
+[8.3199999332427979] 2018-02-11 16:01:01,872 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1032 in on_ready: Bot:   411823829006942210/KΣBΛB#5545 [BOT]
+[8.3239998817443848] 2018-02-11 16:01:01,876 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1040 in on_ready: Owner: 307854234366246914/ℂ⋆EMIR KAYA#9899
+
+[8.3259999752044678] 2018-02-11 16:01:01,878 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1043 in on_ready: Server List:
+[8.3269999027252197] 2018-02-11 16:01:01,879 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1044 in <listcomp>:  - ☪ | PixelTurkey | ☪
+[8.3289999961853027] 2018-02-11 16:01:01,881 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1044 in <listcomp>:  - ☪ | TurkeyZone | ☪
+[8.3309998512268066] 2018-02-11 16:01:01,883 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1088 in on_ready: Not bound to any text channels
+[8.3329999446868896] 2018-02-11 16:01:01,885 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1114 in on_ready: Not autojoining any voice channels
+[8.3350000381469727] 2018-02-11 16:01:01,887 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1118 in on_ready: Options:
+[8.3369998931884766] 2018-02-11 16:01:01,889 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1120 in on_ready:   Command prefix: !
+[8.3380000591278076] 2018-02-11 16:01:01,890 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1121 in on_ready:   Default volume: 25%
+[8.3399999141693115] 2018-02-11 16:01:01,892 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[8.3410000801086426] 2018-02-11 16:01:01,893 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[8.3420000076293945] 2018-02-11 16:01:01,894 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1125 in on_ready:   Auto-Summon: Disabled
+[8.3439998626708984] 2018-02-11 16:01:01,896 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1126 in on_ready:   Auto-Playlist: Disabled
+[8.3450000286102295] 2018-02-11 16:01:01,897 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1127 in on_ready:   Auto-Pause: Enabled
+[8.3469998836517334] 2018-02-11 16:01:01,899 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1128 in on_ready:   Delete Messages: Enabled
+[8.3489999771118164] 2018-02-11 16:01:01,901 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1130 in on_ready:     Delete Invoking: Disabled
+[8.3510000705718994] 2018-02-11 16:01:01,903 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1131 in on_ready:   Debug Mode: Disabled
+[8.3529999256134033] 2018-02-11 16:01:01,905 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1132 in on_ready:   Downloaded songs will be deleted
+[8.3550000190734863] 2018-02-11 16:01:01,907 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1134 in on_ready:   Status message: !Yardım ||TRZone
+[12.9500000476837158] 2018-02-11 16:01:06,502 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1893 in on_message: 307854234366246914/ℂ⋆EMIR KAYA#9899: !joinserver
+[12.9530000686645508] 2018-02-11 16:01:06,505 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1545 in cmd_joinserver: Joining ☪ | TurkeyZone | ☪/🎵 Müzik 🎵
+[12.9549999237060547] 2018-02-11 16:01:06,507 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 437 in get_voice_client: Connection attempt 1 to 🎵 Müzik 🎵
+[12.9559998512268066] 2018-02-11 16:01:06,508 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1288), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[12.9570000171661377] 2018-02-11 16:01:06,509 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1288), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[12.9579999446868896] 2018-02-11 16:01:06,510 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1288), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[13.1299998760223389] 2018-02-11 16:01:06,682 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1288), line 2062 in on_voice_state_update: Voice state update for 411823829006942210/KΣBΛB#5545 on ☪ | TurkeyZone | ☪/🎵 Müzik 🎵 -> [JOIN, CONNECT]
+[13.1310000419616699] 2018-02-11 16:01:06,683 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 2073 in on_voice_state_update: 411823829006942210/KΣBΛB#5545 has joined ☪ | TurkeyZone | ☪/🎵 Müzik 🎵
+[13.1329998970031738] 2018-02-11 16:01:06,685 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1288), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[13.2809998989105225] 2018-02-11 16:01:06,833 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1288), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[13.8629999160766602] 2018-02-11 16:01:07,415 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1288), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[13.8640000820159912] 2018-02-11 16:01:07,416 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 463 in get_voice_client: Connected in 0.9s
+[13.8640000820159912] 2018-02-11 16:01:07,416 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 464 in get_voice_client: Connected to ☪ | TurkeyZone | ☪/🎵 Müzik 🎵
+[13.8669998645782471] 2018-02-11 16:01:07,419 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 805 in deserialize_queue: Deserializing queue for 407612821988179968
+[14.3650000095367432] 2018-02-11 16:01:07,917 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 555 in get_player: Created player via deserialization for server 407612821988179968 with 0 entries
+[14.3650000095367432] 2018-02-11 16:01:07,917 - VOICEDEBUG - musicbot.player | In player.py::MainThread(1288), line 311 in websocket_check: Starting websocket check loop for ☪ | TurkeyZone | ☪
+[21.6039998531341553] 2018-02-11 16:01:15,156 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1893 in on_message: 307854234366246914/ℂ⋆EMIR KAYA#9899: !oynat Sev Beni Delicesine
+[29.3209998607635498] 2018-02-11 16:01:22,873 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
+[29.3229999542236328] 2018-02-11 16:01:22,875 - INFO - musicbot.entry | In entry.py::MainThread(1288), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=Y486GbXKN4g
+[35.2519998550415039] 2018-02-11 16:01:28,804 - INFO - musicbot.entry | In entry.py::MainThread(1288), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=Y486GbXKN4g
+[35.2579998970031738] 2018-02-11 16:01:28,810 - FFMPEG - musicbot.player | In player.py::MainThread(1288), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Y486GbXKN4g-Grup_Nara_-_Ne_Olur_Gitme_-_Orjinal_Video_Klip.webm
+[35.2690000534057617] 2018-02-11 16:01:28,821 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
+[89.6289999485015869] 2018-02-11 16:02:23,181 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1893 in on_message: 307854234366246914/ℂ⋆EMIR KAYA#9899: !oynat Dünya Gül Banada
+[91.2899999618530273] 2018-02-11 16:02:24,842 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1893 in on_message: 307854234366246914/ℂ⋆EMIR KAYA#9899: !atla
+[91.3009998798370361] 2018-02-11 16:02:24,853 - DEBUG - musicbot.player | In player.py::MainThread(1288), line 197 in _playback_finished: Deleting file: audio_cache\youtube-Y486GbXKN4g-Grup_Nara_-_Ne_Olur_Gitme_-_Orjinal_Video_Klip.webm
+[91.3020000457763672] 2018-02-11 16:02:24,854 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
+[97.4700000286102295] 2018-02-11 16:02:31,022 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
+[97.4709999561309814] 2018-02-11 16:02:31,023 - INFO - musicbot.entry | In entry.py::MainThread(1288), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=LU5FrAKJmYQ
+[102.6610000133514404] 2018-02-11 16:02:36,213 - INFO - musicbot.entry | In entry.py::MainThread(1288), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=LU5FrAKJmYQ
+[102.6689999103546143] 2018-02-11 16:02:36,221 - FFMPEG - musicbot.player | In player.py::MainThread(1288), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-LU5FrAKJmYQ-No.1_-_Dunya_Gul_Bana_Duet_Heja_Official_Video_SiyahBayrak.webm
+[102.6729998588562012] 2018-02-11 16:02:36,225 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
+[135.8680000305175781] 2018-02-11 16:03:09,420 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1288), line 2062 in on_voice_state_update: Voice state update for 307854234366246914/ℂ⋆EMIR KAYA#9899 on ☪ | TurkeyZone | ☪/🎵 Müzik 🎵 -> [DEAFEN]
+[346.2939999103546143] 2018-02-11 16:06:39,846 - DEBUG - musicbot.player | In player.py::MainThread(1288), line 197 in _playback_finished: Deleting file: audio_cache\youtube-LU5FrAKJmYQ-No.1_-_Dunya_Gul_Bana_Duet_Heja_Official_Video_SiyahBayrak.webm
+[346.2960000038146973] 2018-02-11 16:06:39,848 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
+[898.7439999580383301] 2018-02-11 16:15:52,296 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1893 in on_message: 194520681461972993/.╲⎝⧹☆!Hůśęýíñ!☆⧸⎠╱.🇹🇷#0308: !yardım
+[959.6840000152587891] 2018-02-11 16:16:53,236 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 909 in safe_delete_message: Cannot delete message "@.╲⎝⧹☆!Hůśęýíñ!☆⧸⎠╱.🇹🇷, **Komutlar ☪ TRZONE ☪**
+```!devam, !atla, !davet, !durdur, !joinserver, !oynat, !q, !ses, !temizle, !yardım```
+Türk Milleti Çalışkandır! | Ne Mutlu Türküm Diyene! Yapımcı: ℂ⋆EMIR KAYA#9899", message not found
+[1752.3380000591278076] 2018-02-11 16:30:05,890 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1288), line 2062 in on_voice_state_update: Voice state update for 194520681461972993/.╲⎝⧹☆!Hůśęýíñ!☆⧸⎠╱.🇹🇷#0308 on ☪ | TurkeyZone | ☪/🎵 Müzik 🎵 -> [JOIN, CONNECT, MUTE]
+[1752.3389999866485596] 2018-02-11 16:30:05,891 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 2073 in on_voice_state_update: 194520681461972993/.╲⎝⧹☆!Hůśęýíñ!☆⧸⎠╱.🇹🇷#0308 has joined ☪ | TurkeyZone | ☪/🎵 Müzik 🎵
+[2026.8139998912811279] 2018-02-11 16:34:40,366 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1288), line 2062 in on_voice_state_update: Voice state update for 194520681461972993/.╲⎝⧹☆!Hůśęýíñ!☆⧸⎠╱.🇹🇷#0308 on ☪ | TurkeyZone | ☪/🎵 Müzik 🎵 -> [LEAVE, DISCONNECT]
+[2026.8150000572204590] 2018-02-11 16:34:40,367 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 2073 in on_voice_state_update: 194520681461972993/.╲⎝⧹☆!Hůśęýíñ!☆⧸⎠╱.🇹🇷#0308 has left ☪ | TurkeyZone | ☪/🎵 Müzik 🎵
+[2036.6879999637603760] 2018-02-11 16:34:50,240 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(1288), line 2062 in on_voice_state_update: Voice state update for 307854234366246914/ℂ⋆EMIR KAYA#9899 on ☪ | TurkeyZone | ☪/🎵 Müzik 🎵 -> [UNDEAFEN]
+[2053.2969999313354492] 2018-02-11 16:35:06,849 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1893 in on_message: 307854234366246914/ℂ⋆EMIR KAYA#9899: !oynat İzmirin Dağlarında çicekler açar remix
+[2060.2869999408721924] 2018-02-11 16:35:13,839 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
+[2060.2890000343322754] 2018-02-11 16:35:13,841 - INFO - musicbot.entry | In entry.py::MainThread(1288), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=nNSsCDKKFcM
+[2064.5959999561309814] 2018-02-11 16:35:18,148 - INFO - musicbot.entry | In entry.py::MainThread(1288), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=nNSsCDKKFcM
+[2064.6099998950958252] 2018-02-11 16:35:18,162 - FFMPEG - musicbot.player | In player.py::MainThread(1288), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-nNSsCDKKFcM-HAKAN_KELE_-_ZM_R_ORG_NAL_M_X_ZM_R_MAR_I_EDM_REM_X_VERS_ON.webm
+[2064.6240000724792480] 2018-02-11 16:35:18,176 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
+[2252.4459998607635498] 2018-02-11 16:38:25,998 - DEBUG - musicbot.player | In player.py::MainThread(1288), line 197 in _playback_finished: Deleting file: audio_cache\youtube-nNSsCDKKFcM-HAKAN_KELE_-_ZM_R_ORG_NAL_M_X_ZM_R_MAR_I_EDM_REM_X_VERS_ON.webm
+[2252.4489998817443848] 2018-02-11 16:38:26,001 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
+[2297.1349999904632568] 2018-02-11 16:39:10,687 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1893 in on_message: 307854234366246914/ℂ⋆EMIR KAYA#9899: !oynat Ah Yalan Dünya Remix
+[2304.5699999332427979] 2018-02-11 16:39:18,122 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
+[2304.5709998607635498] 2018-02-11 16:39:18,123 - INFO - musicbot.entry | In entry.py::MainThread(1288), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=96-xHNCKrjg
+[2310.1519999504089355] 2018-02-11 16:39:23,704 - INFO - musicbot.entry | In entry.py::MainThread(1288), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=96-xHNCKrjg
+[2310.1579999923706055] 2018-02-11 16:39:23,710 - FFMPEG - musicbot.player | In player.py::MainThread(1288), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-96-xHNCKrjg-Ferhat_Gocer_feat._Catwork_Remix_Engineers_-_Yalan_Dunya_Official_Music_Video.webm
+[2310.1729998588562012] 2018-02-11 16:39:23,725 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
+[2525.0520000457763672] 2018-02-11 16:42:58,604 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1893 in on_message: 307854234366246914/ℂ⋆EMIR KAYA#9899: !atla
+[2525.0609998703002930] 2018-02-11 16:42:58,613 - DEBUG - musicbot.player | In player.py::MainThread(1288), line 197 in _playback_finished: Deleting file: audio_cache\youtube-96-xHNCKrjg-Ferhat_Gocer_feat._Catwork_Remix_Engineers_-_Yalan_Dunya_Official_Music_Video.webm
+[2525.0620000362396240] 2018-02-11 16:42:58,614 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
+[2533.1779999732971191] 2018-02-11 16:43:06,730 - INFO - musicbot.bot | In bot.py::MainThread(1288), line 1893 in on_message: 307854234366246914/ℂ⋆EMIR KAYA#9899: !oynat türkçe pop 2018
+[2541.2019999027252197] 2018-02-11 16:43:14,754 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
+[2541.2030000686645508] 2018-02-11 16:43:14,755 - INFO - musicbot.entry | In entry.py::MainThread(1288), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=CymBW9bOF9E
+[2590.0699999332427979] 2018-02-11 16:44:03,622 - INFO - musicbot.entry | In entry.py::MainThread(1288), line 229 in _really_download: Download complete: https://www.youtube.com/watch?v=CymBW9bOF9E
+[2590.0950000286102295] 2018-02-11 16:44:03,647 - FFMPEG - musicbot.player | In player.py::MainThread(1288), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-CymBW9bOF9E-TURKCE_POP_2018_Turkce_Yeni_Pop_ark_lar_Remix_2018.webm
+[2590.0999999046325684] 2018-02-11 16:44:03,652 - DEBUG - musicbot.bot | In bot.py::MainThread(1288), line 781 in serialize_queue: Serializing queue for 407612821988179968
