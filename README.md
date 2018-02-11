@@ -2,7 +2,7 @@
 Merhaba Kardeşlerim.
 Müzik botunu çok kişi istiyen vardı onun için bende anlatıyorum.
 # Git Programını Açıyoruz #
-git clone https://github.com/EmirKaya/Turkce-Music-Bot ~/MuzikBot -b master
+git clone https://github.com/EmirKaya/Turkce-music-bot.git MusicBot -b master
 'Git'den yapmasanız çalışmaz!
 Masaüstüne Geldinize Sağ tık Yapıp Git Bash'a Tıklayın Yazdıktan Sonra Masaüstünüze gelcek
 # Nasıl Çalıştırılır? #
